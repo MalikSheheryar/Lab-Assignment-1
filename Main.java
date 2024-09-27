@@ -52,12 +52,12 @@ public class Main {
                     pharmacyShop.printTotalProfit();
                     break;
                 case 6:
-                    System.out.println("Exiting... Thank you!");
+                    System.out.println("Exit");
                     break;
                 default:
-                    System.out.println("Invalid choice! Please try again.");
+                    System.out.println("Invalid choice!");
             }
-        } while (choice != 8);
+        } while (choice !=7);
 
         scanner.close();
     }
